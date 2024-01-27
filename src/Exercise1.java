@@ -203,6 +203,8 @@ public class Exercise1 {
     }
 
     public static void task9() {
+        // faktorial
+
         Scanner s = new Scanner(System.in);
 
         System.out.println("Ededi daxil edin:");
