@@ -2,19 +2,19 @@ import java.util.Scanner;
 
 public class Exercise1 {
     public static void main(String[] args) {
-        task1();
-        task2();
-        task3();
-        task4();
-        task5();
-        task6();
-        task7();
-        task8();
-        task9();
-        task10();
+        dividedIntoTwo();
+        primeNumbers();
+        sumDigits();
+        valueTransfer();
+        countNumbers();
+        findMonth();
+        triangle();
+        calculator();
+        factorial();
+        figures();
     }
 
-    public static void task1() {
+    public static void dividedIntoTwo() {
         // 0-dan verilmish edede qeder butun 2-ye bolune bilen ededleri chap et
 
         Scanner s = new Scanner(System.in);
@@ -28,7 +28,7 @@ public class Exercise1 {
         }
     }
 
-    public static void task2() {
+    public static void primeNumbers() {
         // 0-dan verilmish edede qeder sade ededleri chap et.
 
         Scanner s = new Scanner(System.in);
@@ -48,7 +48,7 @@ public class Exercise1 {
         }
     }
 
-    public static void task3() {
+    public static void sumDigits() {
         // Verilmish ededin butun ededleri cemini tap.
 
         Scanner s = new Scanner(System.in);
@@ -63,7 +63,7 @@ public class Exercise1 {
         System.out.println(sum);
     }
 
-    public static void task4() {
+    public static void valueTransfer() {
         // 3-cu deyishenden istifade etmeden 2 deyishenin yerini deyishmek
 
         int a = 5;
@@ -77,7 +77,7 @@ public class Exercise1 {
         System.out.println(b);
     }
 
-    public static void task5() {
+    public static void countNumbers() {
         // Ededin reqemlerinin sayini tapin
 
         Scanner s = new Scanner(System.in);
@@ -99,7 +99,7 @@ public class Exercise1 {
         System.out.println(count);
     }
 
-    public static void task6() {
+    public static void findMonth() {
         // İstifadəçidən ay nömrəsini daxil etməyi təklif edən proqram yazın. Sonra daxil edilmiş ay nömrəsinə əsasən
         // həmin ayın adını çap edən keçid-case strukturundan istifadə edərək proqramı tamamlayın. Məsələn, istifadəçi
         // 1-i daxil edərsə, proqram bunu etməlidir. 'Yanvar' yaz, istifadəçi 2 daxil edərsə, 'Fevral' yazmalıdır; və s.
@@ -150,7 +150,7 @@ public class Exercise1 {
         }
     }
 
-    public static void task7() {
+    public static void triangle() {
         // Üçbucağın tərəflərinin düzgünlüyünü yoxlayan daha sonra isə sahəsini və perimetrini hesablayan alqoritm yazın.
 
         int a = 5;
@@ -168,7 +168,7 @@ public class Exercise1 {
         System.out.println(area);
     }
 
-    public static void task8() {
+    public static void calculator() {
         // Calculator hazirlayın
 
         Scanner s = new Scanner(System.in);
@@ -202,7 +202,7 @@ public class Exercise1 {
         }
     }
 
-    public static void task9() {
+    public static void factorial() {
         // faktorial
 
         Scanner s = new Scanner(System.in);
@@ -218,7 +218,7 @@ public class Exercise1 {
         System.out.println(result);
     }
 
-    public static void task10() {
+    public static void figures() {
         //*
         //**
         //***
